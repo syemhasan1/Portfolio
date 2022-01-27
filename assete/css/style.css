@@ -1,12 +1,13 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.name-highlight{
-    color: orange;
-}
-h1{
-    font-size: 40px;
+.top-banner{
+    background-image: url("../image/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
 }
 
 .section1div{
@@ -16,9 +17,70 @@ h1{
     padding: 0%;
 }
 
+.section1div h1{
+    font-size: 50px;
+
+    
+}
+
+.section1div h1 .name-highlight{
+    color: orange;
+
+}
+
+.section1div .link-button{
+    text-decoration: none;
+    padding: 8px 20px ;
+    background-image: linear-gradient(60deg,red,yellow);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.section1div .link-button:hover{
+    background-image: linear-gradient(90deg,yellow,red);
+    color: papayawhip;
+    transition: 1s;
+}
+
 .section1div img{
     width: 100%;
 }
+
+.banner2{
+    width: 100%;
+    height: 700px;
+
+}
+
+.section2div{
+    width: 40%;
+    height: 700px;
+    float: left;
+
+    margin-left: 5%;
+    padding: 2%;
+    
+}
+
+.section2div img{
+    height: 700px;
+}
+
+.section2div .download-resume{
+    padding: 10px 20px;
+
+    text-decoration: none;
+    background-color: rgb(119, 12, 207);
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+
+
+
+
 
 
 
